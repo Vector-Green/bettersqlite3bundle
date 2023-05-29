@@ -1,0 +1,12 @@
+{
+    "filename": "build/server.js",
+    "scripts": "build/**/*.node",
+    "outputPath": "./release/server",
+    "/*cross-compilation not supported cause of better-sqlite3*/targets": [
+      "linuxstatic",
+      "win",
+      "macos"
+    ],
+    "targets": ["host"]
+  }
+  
